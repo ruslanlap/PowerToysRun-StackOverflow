@@ -1,0 +1,15 @@
+# Додати до .gitignore (якщо хочеш залишити файли локально, але не комітити):
+
+# Template files (not needed for StackOverflow plugin)
+src/
+tests/
+Templates.sln
+
+# Development helper files
+FEATURES_IMPLEMENTATION_GUIDE.md
+packages-microsoft-prod.deb
+dotnet-install.sh
+
+# Optional duplicates
+QUICK_START.md
+README.uk.md
