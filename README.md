@@ -4,7 +4,7 @@
 
 <img src="assets/logo.png" alt="StackOverflow Icon" width="120" height="120">
 
-### *Instant Access to Millions of Programming Solutions*
+### *Instant Access to Millions of Programming Solutions for true old school developers :beer*
 
 **Stop alt-tabbing to your browser for every coding question.**  
 Search StackOverflow directly from PowerToys Run → `Alt+Space` → `so python async` → Done! ✨
