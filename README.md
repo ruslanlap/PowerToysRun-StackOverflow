@@ -68,6 +68,7 @@ Alt+Space → so sql join types              # 🗄️ Database queries
 
 - [Overview](#-overview)
 - [Features](#-features)
+- [Installation](#-installation)
 - [Quick Start](#️-get-started-in-60-seconds)
 - [Usage Examples](#-power-user-tips)
 - [API Key Setup (Optional)](#-api-key-setup-optional)
@@ -131,6 +132,65 @@ Alt+Space → so sql join types              # 🗄️ Database queries
 </tr>
 </table>
 </div>
+
+---
+
+## 📥 Installation
+
+### Requirements
+
+- **Operating System**: Windows 10/11 (version 10.0.22621.0 or higher)
+- **PowerToys**: Version 0.93.0 or higher
+- **Architecture**: x64 or ARM64
+- **Internet**: Required for searching (cache works offline)
+
+### Installation Steps
+
+1. **Download the plugin**
+   - Visit the [latest release](https://github.com/ruslanlap/PowerToysRun-StackOverflow/releases/latest)
+   - Download the appropriate ZIP file for your system:
+     - `StackOverflow-1.0.0-x64.zip` for 64-bit Windows
+     - `StackOverflow-1.0.0-ARM64.zip` for ARM64 Windows
+
+2. **Extract to PowerToys plugins directory**
+
+   Navigate to:
+
+   ```
+   %LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins\
+   ```
+
+   Full path example:
+
+   ```
+   C:\Users\YourName\AppData\Local\Microsoft\PowerToys\PowerToys Run\Plugins\
+   ```
+
+   Extract the downloaded ZIP file here. You should have:
+
+   ```
+   Plugins\StackOverflow\plugin.json
+   Plugins\StackOverflow\Community.PowerToys.Run.Plugin.StackOverflow.dll
+   Plugins\StackOverflow\Images\...
+   ```
+
+3. **Restart PowerToys**
+   - Right-click the PowerToys icon in your system tray
+   - Select **"Exit PowerToys"**
+   - Launch PowerToys again from the Start Menu
+
+4. **Verify installation**
+   - Press `Alt+Space` to open PowerToys Run
+   - Type `so test` and press Enter
+   - You should see the plugin prompt for StackOverflow search
+
+### Uninstallation
+
+To remove the plugin:
+
+1. Navigate to `%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins\`
+2. Delete the `StackOverflow` folder
+3. Restart PowerToys
 
 ---
 
