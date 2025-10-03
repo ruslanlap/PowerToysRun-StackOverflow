@@ -3,7 +3,7 @@ name: Build and Release StackOverflow Plugin
 on:
   push:
     # branches:
-    #   - main
+    #   - master
     tags:
       - 'v*'
 
@@ -211,7 +211,7 @@ jobs:
           cat > release_notes.md << EOL
           # StackOverflow Plugin v${VERSION}
 
-          <img src="https://raw.githubusercontent.com/ruslanlap/PowerToysRun-StackOverflow/main/assets/logo.png" alt="StackOverflow Plugin Logo" width="64"/>
+          <img src="https://raw.githubusercontent.com/ruslanlap/PowerToysRun-StackOverflow/master/assets/logo.png" alt="StackOverflow Plugin Logo" width="64"/>
 
           ## 📚 What's New in v${VERSION}
 
@@ -252,7 +252,7 @@ jobs:
           4. Paste key in "Stack Exchange API Key" textbox
           5. Done! No restart needed.
 
-          📖 Full guide: [API_KEY_SETUP.md](https://github.com/ruslanlap/PowerToysRun-StackOverflow/blob/main/API_KEY_SETUP.md)
+          📖 Full guide: [API_KEY_SETUP.md](https://github.com/ruslanlap/PowerToysRun-StackOverflow/blob/master/API_KEY_SETUP.md)
 
           ## 📊 Usage Examples
 
