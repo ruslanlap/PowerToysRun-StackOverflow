@@ -1,0 +1,63 @@
+═══════════════════════════════════════════════════════════════════════
+  HOW TO GET STACK EXCHANGE API KEY (Optional)
+═══════════════════════════════════════════════════════════════════════
+
+CURRENT LIMITS:
+  • Without API key: 300 requests per day
+  • With API key: 10,000 requests per day
+
+═══════════════════════════════════════════════════════════════════════
+
+QUICK SETUP (5 minutes):
+
+1. GET YOUR API KEY
+   → Visit: https://stackapps.com/apps/oauth/register
+   → Fill in:
+     • Application Name: PowerToys Run StackOverflow Plugin
+     • Description: Personal use
+     • OAuth Domain: localhost
+     • Website: (optional)
+   → Click "Register Your Application"
+   → Copy the "Key" value (NOT Client Secret!)
+
+2. CONFIGURE IN POWERTOYS SETTINGS
+   → Right-click PowerToys tray icon → Settings
+   → Go to: PowerToys Run → Plugins → StackOverflow
+   → Find the textbox: "Stack Exchange API Key (Optional)"
+   → Paste your key
+   → Done! Key is saved automatically
+
+3. VERIFY
+   → Open PowerToys Run (Alt+Space)
+   → Type: so python async
+   → Search should work without rate limit errors
+   → You now have 10,000 requests/day!
+
+═══════════════════════════════════════════════════════════════════════
+
+SECURITY:
+  ✓ Key is stored securely by PowerToys
+  ✓ Only accessible to your Windows user
+  ✓ Never shared with third parties
+  ✓ Stack Exchange API keys are for identification, not authentication
+
+═══════════════════════════════════════════════════════════════════════
+
+TROUBLESHOOTING:
+
+• Still getting rate limit errors?
+  → Verify key is entered in PowerToys Settings
+  → Check you copied the "Key" field, not "Client Secret"
+  → Try searching again (old cached errors might show)
+
+• Need help?
+  → See: API_KEY_SETUP.md for detailed guide
+  → Visit: https://github.com/ruslanlap/PowerToysRun-StackOverflow
+
+═══════════════════════════════════════════════════════════════════════
+
+MONITOR YOUR USAGE:
+  → Visit: https://stackapps.com/apps/oauth
+  → View daily request count and quota remaining
+
+═══════════════════════════════════════════════════════════════════════

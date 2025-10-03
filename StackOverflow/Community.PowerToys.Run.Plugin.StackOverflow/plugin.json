@@ -1,0 +1,14 @@
+{
+  "ID": "FFCA3E1DBB5247549B71A712AF2F03EC",
+  "ActionKeyword": "so",
+  "IsGlobal": false,
+  "Name": "StackOverflow",
+  "Author": "ruslanlap",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/ruslanlap/PowerToysRun-StackOverflow",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.StackOverflow.dll",
+  "IcoPathDark": "Images\\stackoverflow.dark.png",
+  "IcoPathLight": "Images\\stackoverflow.light.png",
+  "DynamicLoading": false
+}
